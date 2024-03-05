@@ -5,8 +5,8 @@ G54 ;
 G50 S200 ;
 T0101 ;
 G96 S200 M03 ;
-G00 X50. Z50. (No Feeding) ; 
-G94 X-1. Z0. F0.1 (Facing);
+G00 X50. Z50. ; 
+G94 X-1. Z0. F0.1 (Face);
 G00 X50. Z50. (Straight) ;
 G90 X40. Z-30. F0.1 ;
 X38. ;
@@ -33,4 +33,3 @@ G00 X50. Z50. (Footer) ;
 M05;
 G28 U0. W0. ;
 M30;
-

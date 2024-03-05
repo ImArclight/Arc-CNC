@@ -1,4 +1,4 @@
-O00069 (FeiX) ;
+O0272 (FeiX) ;
 N1 (Header) ;
 G99 ;
 G54 ;
@@ -7,8 +7,8 @@ T0101 ;
 G96 S200 M03 ;
 G00 X50. Z50. ; 
 G94 X-1. Z0. F0.1 (Face);
-G00 X50. Z50. (Straight) ;
-G90 X40. Z-30. F0.1 ;
+G00 X50. Z50. ;
+G90 X40. Z-30. F0.1 (Straight) ;
 X38. ;
 X36. ;
 X35. ;
